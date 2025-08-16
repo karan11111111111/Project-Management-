@@ -1,0 +1,48 @@
+
+.loginContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #141921; /* Dark background to match website */
+}
+
+.loginBox {
+  width: 100%;
+  max-width: 400px; /* Constrain the size */
+  background-color: #1e293b; /* Slightly lighter background for the form container */
+  border-radius: 8px; /* Slightly rounded corners */
+  padding: 2.5rem; /* Add some padding */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  border: 1px solid #334155; /* Light border */
+  color: #e2e8f0; /* Set text color to light gray */
+}
+
+.loginBox h1 {
+    color: #cbd5e1;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+/* Style for input fields to match the dark theme */
+.loginBox input {
+    background-color: #0f172a;
+    border-color: #475569;
+    color: #e2e8f0;
+}
+
+.loginBox input::placeholder {
+    color: #64748b;
+}
+
+/* Style for the submit button */
+.loginBox button {
+    background-color: #334155;
+    color: #e2e8f0;
+    font-weight: 500;
+}
+.loginBox button:hover {
+    background-color: #475569;
+}
